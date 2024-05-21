@@ -8,13 +8,13 @@ export default defineNuxtConfig({
     "@vueuse/motion/nuxt",
     "@vueuse/sound/nuxt",
   ],
-//  app: {
-//    baseURL: "/star-blog",
-//    head: {
-//      title: "star. Blog",
-  //    link: [{ rel: "icon", type: "image/x-icon", href: "favicon.ico" }],
-//    },
- // },
+ app: {
+   baseURL: "/star-blog",
+    head: {
+      title: "star. Blog",
+      link: [{ rel: "icon", type: "image/x-icon", href: "favicon.ico" }],
+   },
+  },
   devtools: { enabled: false },
   devServer: {
     port: 3333,
